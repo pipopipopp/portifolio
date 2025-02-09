@@ -187,7 +187,7 @@ body {
     font-size: 1.2rem;
 }
 
-/* Responsividade */
+/* responsividade */
 @media (max-width: 768px) {
     .about-content {
         grid-template-columns: 1fr;
@@ -290,14 +290,12 @@ body {
     transform: translateY(-2px);
 }
 
-/* Responsividade para projetos */
 @media (max-width: 768px) {
     .projects-grid {
         grid-template-columns: 1fr;
     }
 }
 
-/* Seção de Contato */
 .contact-section {
     padding: 6rem 2rem;
     background-color: var(--discord-darker);
@@ -354,7 +352,6 @@ body {
     transform: translateY(-3px);
 }
 
-/* Formulário de Contato */
 .contact-form {
     background-color: var(--discord-dark);
     padding: 2rem;
@@ -430,7 +427,6 @@ body {
     background-color: #5f73bc;
 }
 
-/* Footer */
 .footer {
     background-color: var(--discord-darker);
     padding: 2rem;
@@ -454,7 +450,7 @@ body {
     color: var(--discord-light);
 }
 
-/* Responsividade Completa */
+/* responsividade completa */
 @media (max-width: 1200px) {
     .container {
         padding: 0 2rem;
@@ -521,11 +517,10 @@ body {
     }
 }
 
-/* Estilização da logo */
 .logo-img {
     height: 60px;
     width: auto;
     object-fit: contain;
-    filter: brightness(1.1); /* Ajusta o brilho para melhor visibilidade */
+    filter: brightness(1.1);
     border-radius: 20%;
 }
