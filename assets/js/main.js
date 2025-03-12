@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         backDelay: 2000,
         startDelay: 500,
         loop: true,
-        showCursor: true,
+        showCursor: false,
         cursorChar: '|',
         autoInsertCss: true,
         smartBackspace: true,
